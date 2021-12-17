@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner_container">
+            <div class="controls">
+                <button type="button" id="desc_level" >&minus;</button>
+                <input type="text" id="input_level" name="level" />
+                <button type="button" id="inc_level">&plus;</button>
+                <input type="text" id="input_score" name="point"/>
+                <button type="button" id="empty">&#63;</button>
+
+            </div>
+            <canvas id="tetris" class="tetris" width="150px" height="400px"></canvas>
+            <div class="move">
+                <button id="move_left" class="move_left" >&lt;&minus;</button>
+                <button id="vertical" class="vertical" >&or;</button>
+                <button id="move_right" class="move_right" >&minus;&gt;</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
