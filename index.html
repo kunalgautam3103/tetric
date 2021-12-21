@@ -11,18 +11,18 @@
     <div class="container">
         <div class="inner_container">
             <div class="controls">
-                <button type="button" id="desc_level" >&minus;</button>
-                <input type="text" id="input_level" name="level" />
-                <button type="button" id="inc_level">&plus;</button>
-                <input type="text" id="input_score" name="point"/>
-                <button type="button" id="empty">&#63;</button>
+                <button type="button" id="desc_level" name="desc_leve" >&minus;</button>
+                <input type="number" id="input_level" name="input_level" min="0" max="3" class="input" />
+                <button type="button" id="inc_level" name="inc_level" >&plus;</button>
+                <input type="number" min="0" id="input_score" name="input_score" class="input"/>
+                <button type="button" id="empty" name="empty">&#63;</button>
 
             </div>
             <canvas id="tetris" class="tetris" width="150px" height="400px"></canvas>
             <div class="move">
-                <button id="move_left" class="move_left" >&lt;&minus;</button>
-                <button id="vertical" class="vertical" >&or;</button>
-                <button id="move_right" class="move_right" >&minus;&gt;</button>
+                <button type="button" id="move_left" name="move_left" class="move_left" >&lt;&minus;</button>
+                <button type="button" id="vertical" name="vertical" class="vertical" >&or;</button>
+                <button type="button" id="move_right" name="move_right" class="move_right" >&minus;&gt;</button>
             </div>
 
         </div>
